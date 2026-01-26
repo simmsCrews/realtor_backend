@@ -1,11 +1,11 @@
-package com.myexam.user
+package com.system.realtor
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class UserApplication
+class RealtorApplication
 
 fun main(args: Array<String>) {
-    runApplication<UserApplication>(*args)
+    runApplication<RealtorApplication>(*args)
 }

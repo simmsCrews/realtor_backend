@@ -1,4 +1,4 @@
-package com.myexam.admin
+package com.system.admin
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

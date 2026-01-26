@@ -38,3 +38,15 @@ out/
 
 ### Kotlin ###
 .kotlin
+
+### config
+system-realtor/src/main/resources/application-realtor.yml
+system-admin/src/main/resources/application-admin.yml
+
+realtor_backend-config/**
+
+### MAC OS
+.DS_Store
+
+### docker related file
+.env

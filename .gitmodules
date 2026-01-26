@@ -1,0 +1,4 @@
+[submodule "realtor_backend-config"]
+	path = realtor_backend-config
+	url = https://github.com/simmsCrews/realtor_backend-config.git
+	branch = main
