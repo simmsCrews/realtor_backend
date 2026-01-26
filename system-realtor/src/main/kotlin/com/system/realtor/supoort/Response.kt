@@ -1,4 +1,4 @@
-package com.myexam.author.supoort
+package com.system.realtor.supoort
 
 data class Response<T>(
     val resultCode: String,
