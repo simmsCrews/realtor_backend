@@ -1,4 +1,7 @@
 package com.system.realtor.domain
 
-class Estate {
+/**
+    직원
+ */
+class Agent {
 }
