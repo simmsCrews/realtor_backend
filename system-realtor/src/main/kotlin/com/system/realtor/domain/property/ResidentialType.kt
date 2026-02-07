@@ -1,6 +1,6 @@
 package com.system.realtor.domain.property
 
-enum class PropertyType(
+enum class ResidentialType(
     val code: String,
     val description: String,
 ) {
