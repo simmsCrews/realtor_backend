@@ -3,16 +3,20 @@ package com.system.realtor.domain.property
 import java.time.LocalDate
 
 import com.system.realtor.domain.Realtor
+import java.util.Properties
 
 /**
    매물
  */
 class Property(
 
-   //계약 객체
+   // 계약 객체
    val contractEndDate: LocalDate,           // 만기일
-   val price: String,                        // 가격
+   val price: Price,                         // 가격
    val status: String,                       // 상태
+
+   // 희망 거래 종류
+   val dealType: Set<DealType>,
 
    // 권리당사자
    val owner: Owner,                         // 소유주
@@ -24,5 +28,6 @@ class Property(
 
    val realtor: Realtor
 ) {
+
 
 }
