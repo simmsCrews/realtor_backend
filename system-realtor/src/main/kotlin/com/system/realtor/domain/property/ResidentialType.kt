@@ -7,5 +7,4 @@ enum class ResidentialType(
     APARTMENT("APARTMENT", "아파트"),
     VILLA("VILLA", "빌라"),
 
-
 }

@@ -12,6 +12,7 @@ class Property(
    // 조건
    val price: Price,                         // 가격
    // todo 면적 vo 추가
+   val residentialType :ResidentialType,    // 주거 형태
 
    // 희망 거래 종류
    val dealType: Set<DealType>,
