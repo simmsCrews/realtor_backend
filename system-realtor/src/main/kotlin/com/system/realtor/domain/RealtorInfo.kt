@@ -1,7 +1,7 @@
 package com.system.realtor.domain
 
 data class RealtorInfo(
-    val user: Account,
+    val account: Account,
     val office: Office,
     ) {
 

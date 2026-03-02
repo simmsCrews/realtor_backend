@@ -8,6 +8,7 @@ import com.system.realtor.domain.Realtor
    매물
  */
 class Property(
+   val id: Long,
 
    // 조건
    val price: Price,                         // 가격
