@@ -1,11 +1,8 @@
 package com.system.realtor.domain
 
-/**
-    직원
- */
-class Agent(
-    val id: Long,
+data class RealtorInfo(
     val account: Account,
-) {
+    val office: Office,
+    ) {
 
 }

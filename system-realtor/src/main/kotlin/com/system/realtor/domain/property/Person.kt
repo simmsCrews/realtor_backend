@@ -1,9 +1,9 @@
 package com.system.realtor.domain.property
 
 /**
-  소유주
- * */
-class Owner(
+    임대인, 임차인 정보
+ **/
+class Person(
     val name:String,
     val mobile: String,
     val phone: String,
