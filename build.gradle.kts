@@ -44,6 +44,12 @@ subprojects {
 		add("implementation", "org.jetbrains.kotlin:kotlin-reflect")
 		add("testImplementation", "org.jetbrains.kotlin:kotlin-test-junit5")
 		add("testRuntimeOnly", "org.junit.platform:junit-platform-launcher")
+
+		//security + Oauth2
+		add("implementation", "org.springframework.boot:spring-boot-starter-security")
+		add("implementation", "org.springframework.boot:spring-boot-starter-oauth2-client")
+		add("implementation", "org.springframework.boot:spring-boot-starter-oauth2-resource-server")
+
 	}
 }
 
